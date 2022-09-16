@@ -33,3 +33,17 @@ YoowoGame Server
 Version 1.2.0-alpha
 Running on port 8000
 ```
+
+# Test server instance
+
+Use `curl` and open this URI :
+`http://SERVER_IP:8000/status`
+
+You will get a result like :
+```console
+gmaiuri@linux:~/$ curl localhost:8000/status
+{
+   "code": 0,
+   "msg": "READY"
+} 
+```
